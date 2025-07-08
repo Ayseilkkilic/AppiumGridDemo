@@ -1,0 +1,25 @@
+<suite name="ParallelSuite" parallel="tests" thread-count="2">
+
+    <test name="Emulator1">
+        <parameter name="deviceName" value="emulator-5554"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="11.0"/>
+        <parameter name="systemPort" value="8200"/>
+        <parameter name="appiumPort" value="4723"/>
+        <classes>
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+
+    <test name="Emulator2">
+        <parameter name="deviceName" value="emulator-5556"/>
+        <parameter name="udid" value="emulator-5556"/>
+        <parameter name="platformVersion" value="11.0"/>
+        <parameter name="systemPort" value="8201"/>
+        <parameter name="appiumPort" value="4725"/>
+        <classes>
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
