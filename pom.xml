@@ -101,7 +101,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <parallel>methods</parallel>
+                    <parallel>tests</parallel>
                     <threadCount>2</threadCount>
                 </configuration>
             </plugin>
