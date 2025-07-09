@@ -1,0 +1,16 @@
+[
+  {
+    "key": "componentMainToolbarHome",
+    "androidValue": "//android.widget.TextView[@content-desc=\"gui__Menu\"]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "guiMediaContent",
+    "androidValue": "//android.widget.TextView[@content-desc=\"gui__MediaContent\"]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  }
+]
