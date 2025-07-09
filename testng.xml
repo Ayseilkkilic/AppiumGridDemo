@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <suite name="ParallelAppiumTestSuite" parallel="tests" thread-count="2">
-    <test name="Emulator1">
+    <test name="emulator1">
         <parameter name="deviceName" value="emulator1"/>
         <parameter name="udid" value="emulator-5554"/>
         <parameter name="platformVersion" value="11.0"/>
@@ -9,8 +10,7 @@
             <class name="runners.TestRunner"/>
         </classes>
     </test>
-
-    <test name="Emulator2">
+    <test name="emulator2">
         <parameter name="deviceName" value="emulator2"/>
         <parameter name="udid" value="emulator-5556"/>
         <parameter name="platformVersion" value="11.0"/>
