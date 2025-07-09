@@ -1,16 +1,12 @@
 [
   {
-    "key": "componentMainToolbarHome",
-    "androidValue": "//android.widget.TextView[@content-desc=\"gui__Menu\"]",
-    "androidType": "xpath",
-    "iosValue": "",
-    "iosType": ""
+    "key": "openInternational",
+    "androidValue": "aero.tci.entertainment:id/openInternational",
+    "androidType": "id"
   },
   {
-    "key": "guiMediaContent",
-    "androidValue": "//android.widget.TextView[@content-desc=\"gui__MediaContent\"]",
-    "androidType": "xpath",
-    "iosValue": "",
-    "iosType": ""
-  }
+  "key": "planetLogo",
+  "androidValue": "//android.view.ViewGroup/android.widget.ImageView[2]",
+  "androidType": "xpath"
+}
 ]

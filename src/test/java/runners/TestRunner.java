@@ -2,13 +2,17 @@ package runners;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+import io.qameta.allure.testng.AllureTestNg; // Allure listener importu
 import org.testng.annotations.*;
+import org.testng.annotations.Listeners;
 import utilities.DriverFactory;
+
+@Listeners({AllureTestNg.class}) // 👉 Buraya eklendi
 
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {"stepdefinitions"},
-        plugin = {"pretty", "html:target/cucumber-reports.html"},
+        plugin = {"pretty", "html:target/cucumber-reports.html", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
         monochrome = true
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
