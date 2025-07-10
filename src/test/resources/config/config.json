@@ -2,14 +2,14 @@
   {
     "deviceName": "emulator1",
     "udid": "emulator-5554",
-    "platformVersion": "11.0",
+    "platformVersion": "13",
     "systemPort": "8200",
     "appiumPort": "4723"
   },
   {
     "deviceName": "emulator2",
     "udid": "emulator-5556",
-    "platformVersion": "11.0",
+    "platformVersion": "13",
     "systemPort": "8201",
     "appiumPort": "4725"
   }
